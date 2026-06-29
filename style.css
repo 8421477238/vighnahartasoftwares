@@ -9201,3 +9201,41 @@ a[href^="tel:"]::before{
     content:"📞";
 
 }
+
+/* ==================================
+   FOOTER CONTACT LINKS
+================================== */
+
+.footer-contact-link{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    margin:10px 0;
+
+    color:#b8c7d9;
+
+    text-decoration:none;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    transition:all .35s ease;
+
+}
+
+.footer-contact-link:hover{
+
+    color:#00d4ff;
+
+    transform:translateX(6px);
+
+}
+
+.footer-contact-link:active{
+
+    color:#8b5cf6;
+
+}
